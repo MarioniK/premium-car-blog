@@ -11,5 +11,7 @@
 @import url('../blocks/header/__navigation/header__navigation.css');
 @import url('../blocks/header/__links/header__links.css');
 @import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__search/header__search.css');
+@import url(../blocks/header/__search-icon/header__search-icon.css);
 
 
