@@ -3,3 +3,13 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('../blocks/window/window.css');
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__content/header__content.css');
+@import url('../blocks/logotype/logotype.css');
+@import url('../blocks/header/__logotype/header__logotype.css');
+@import url('../blocks/header/__navigation/header__navigation.css');
+@import url('../blocks/header/__links/header__links.css');
+@import url('../blocks/header/__link/header__link.css');
+
+

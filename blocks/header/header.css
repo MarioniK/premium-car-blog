@@ -1,0 +1,15 @@
+.header {
+  color: white;
+  font-family: 'PT Sans', sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background-color: #000000;
+}

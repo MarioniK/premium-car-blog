@@ -1,0 +1,16 @@
+.header__link {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-size: 14px;
+  line-height: 18px;
+  text-decoration: none;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: .3s;
+  transition-timing-function: linear;
+}
+
+.header__link:hover {
+  opacity: .8;
+}
