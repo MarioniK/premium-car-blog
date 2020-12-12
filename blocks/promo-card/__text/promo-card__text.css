@@ -1,0 +1,12 @@
+.promo-card__text {
+  color: white;
+  text-decoration: none;
+  opacity: 1;
+  transition-property: opacity;
+  transition-duration: .3s;
+  transition-timing-function: linear;
+}
+
+.promo-card__text:hover {
+  opacity: .8;
+}

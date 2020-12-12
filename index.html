@@ -7,8 +7,9 @@
   <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="window">
-  <header class="header">
-    <div class="header__content">
+  <div class="root">
+    <header class="header">
+    <div class="header__content root__section">
       <a class="header__logotype" href="/index.html">
         <img src="./images/Logotype.svg" alt="Logotype" class="logotype">
       </a>
@@ -16,15 +17,72 @@
         <img src="./images/Search.svg" alt="Search" class="header__search-icon">
       </a>
     </div>
-    <nav class="header__navigation">
-      <ul class="header__links">
-        <li><a class="header__link" href="#">Home</a></li>
-        <li><a class="header__link" href="#">Recipes</a></li></li>
-        <li><a class="header__link" href="#">Article</a></li>
-        <li><a class="header__link" href="#">Contact</a></li>
-        <li><a class="header__link" href="#">Purchase</a></li>
+    <nav class="menu menu_position_header">
+      <ul class="menu__links">
+        <li class="menu__list"><a class="menu__link" href="#">Home</a></li>
+        <li class="menu__list"><a class="menu__link" href="#">Recipes</a></li></li>
+        <li class="menu__list"><a class="menu__link" href="#">Article</a></li>
+        <li class="menu__list"><a class="menu__link" href="#">Contact</a></li>
+        <li class="menu__list"><a class="menu__link" href="#">Purchase</a></li>
       </ul>
     </nav>
-  </header>
+    </header>
+    <main>
+      <section class="promo-grid root__section">
+        <ul class="promo-grid__grid">
+          <li class="promo-card">
+            <img src="./images/Bitmap_1.jpg" alt="Mercedes" class="promo-card__image">
+            <div class="promo-card__content">
+              <a href="#" class="category">Vechicle</a>
+              <a href="#" class="promo-card__text promo-card__text_size_big">
+                <p class="promo-card__date">Rickie Baroch - June 6, 2019</p>
+                <h2 class="promo-card__header promo-card__header_size_big">One of Saturn’s largest rings may be newer than anyone</h2>
+              </a>
+            </div>
+          </li>
+          <li class="promo-card">
+            <img src="./images/Bitmap_02.jpg" alt="Mercedes" class="promo-card__image">
+            <div class="promo-card__content">
+              <a href="#" class="category">Vechicle</a>
+              <a href="#" class="promo-card__text">
+                <p class="promo-card__date">Rickie Baroch - June 6, 2019</p>
+                <h2 class="promo-card__header">One of Saturn’s largest rings may be newer than anyone</h2>
+              </a>
+            </div>
+          </li>
+          <li class="promo-card">
+            <img src="./images/Bitmap_03.jpg" alt="Audi" class="promo-card__image">
+            <div class="promo-card__content">
+              <a href="#" class="category">Vechicle</a>
+              <a href="#" class="promo-card__text">
+                <p class="promo-card__date">Rickie Baroch - June 6, 2019</p>
+                <h2 class="promo-card__header">One of Saturn’s largest rings may be newer than anyone</h2>
+              </a>
+            </div>
+          </li>
+          <li class="promo-card">
+            <img src="./images/Bitmap_04.jpg" alt="Audi" class="promo-card__image">
+            <div class="promo-card__content">
+              <a href="#" class="category">Vechicle</a>
+              <a href="#" class="promo-card__text">
+                <p class="promo-card__date">Rickie Baroch - June 6, 2019</p>
+                <h2 class="promo-card__header">One of Saturn’s largest rings may be newer than anyone</h2>
+              </a>
+            </div>
+          </li>
+          <li class="promo-card">
+            <img src="./images/Bitmap_05.jpg" alt="Maseratti" class="promo-card__image">
+            <div class="promo-card__content">
+              <a href="#" class="category">Vechicle</a>
+              <a href="#" class="promo-card__text">
+                <p class="promo-card__date">Rickie Baroch - June 6, 2019</p>
+                <h2 class="promo-card__header">One of Saturn’s largest rings may be newer than anyone</h2>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
 </body>
 

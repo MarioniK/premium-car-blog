@@ -1,0 +1,6 @@
+.menu_position_header {
+  width: 368px;
+  position: absolute;
+  top: 36px;
+  left: calc(50% - 185px);
+}

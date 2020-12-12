@@ -1,0 +1,10 @@
+.promo-card__content {
+  height: calc(100% - 60px);
+  width: calc(100% - 20px);
+  position: absolute;
+  top: 30px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

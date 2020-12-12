@@ -1,0 +1,21 @@
+.category {
+  display: flex;
+  width: 62px;
+  height: 22px;
+  color: white;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration: none;
+  border-radius: 3px;
+  padding-top: 4px;
+  background-color: #4A90E2;
+  justify-content: center;
+  justify-items: center;
+  transition-property: background-color;
+  transition-duration: .3s;
+  transition-timing-function: linear;
+}
+
+.category:hover {
+  background-color: tomato;
+}

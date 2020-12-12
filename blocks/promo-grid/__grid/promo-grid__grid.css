@@ -1,0 +1,10 @@
+.promo-grid__grid {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-items: start;
+  align-items: start;
+  grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
+  gap: 30px;
+}

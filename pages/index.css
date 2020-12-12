@@ -4,14 +4,30 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import url('../blocks/window/window.css');
+@import url('../blocks/root/root.css');
+@import url('../blocks/root/__section/root__section.css');
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__content/header__content.css');
 @import url('../blocks/logotype/logotype.css');
 @import url('../blocks/header/__logotype/header__logotype.css');
-@import url('../blocks/header/__navigation/header__navigation.css');
-@import url('../blocks/header/__links/header__links.css');
-@import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/menu/menu.css');
+@import url('../blocks/menu/_position/menu_position_header.css');
+@import url('../blocks/menu/__links/menu__links.css');
+@import url('../blocks/menu/__list/menu__list.css');
+@import url('../blocks/menu/__link/menu__link.css');
 @import url('../blocks/header/__search/header__search.css');
-@import url(../blocks/header/__search-icon/header__search-icon.css);
+@import url('../blocks/header/__search-icon/header__search-icon.css');
+@import url('../blocks/content/content.css');
+@import url('../blocks/promo-grid/promo-grid.css');
+@import url('../blocks/promo-grid/__grid/promo-grid__grid.css');
+@import url('../blocks/promo-card/promo-card.css');
+@import url('../blocks/promo-card/__image/promo-card__image.css');
+@import url('../blocks/promo-card/__content/promo-card__content.css');
+@import url('../blocks/category/category.css');
+@import url('../blocks/promo-card/__text/promo-card__text.css');
+@import url('../blocks/promo-card/__date/promo-card__date.css');
+@import url('../blocks/promo-card/__header/promo-card__header.css');
+@import url('../blocks/promo-card/__header/_size/promo-card__header_size_big.css');
+@import url('../blocks/promo-card/__text/_size/promo-card__text_size_big.css');
 
 

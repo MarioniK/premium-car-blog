@@ -1,4 +1,4 @@
-.header__link {
+.menu__link {
   margin: 0;
   padding: 0;
   color: white;
@@ -11,6 +11,6 @@
   transition-timing-function: linear;
 }
 
-.header__link:hover {
+.menu__link:hover {
   opacity: .8;
 }
